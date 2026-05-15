@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import clsx from 'clsx';
-import { Drawer } from 'vaul';
-import { DrawerDirection } from 'vaul/src/types';
+import { Drawer } from '@hendraaagil/vaul';
+import { DrawerDirection } from '@hendraaagil/vaul/src/types';
 
 const CenteredContent = () => {
   return (

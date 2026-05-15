@@ -1,7 +1,7 @@
 'use client';
 
 import clsx from 'clsx';
-import { Drawer, DialogProps } from 'vaul';
+import { Drawer, DialogProps } from '@hendraaagil/vaul';
 
 function DirectionalDrawer({
   direction,

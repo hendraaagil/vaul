@@ -1,6 +1,6 @@
 'use client';
 
-import { Drawer } from 'vaul';
+import { Drawer } from '@hendraaagil/vaul';
 import { useState } from 'react';
 
 export function MyDrawer({

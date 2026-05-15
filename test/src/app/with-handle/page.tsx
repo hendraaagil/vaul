@@ -2,7 +2,7 @@
 
 import { clsx } from 'clsx';
 import { useState } from 'react';
-import { Drawer } from 'vaul';
+import { Drawer } from '@hendraaagil/vaul';
 
 const snapPoints = ['148px', '355px'];
 

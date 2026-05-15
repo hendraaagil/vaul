@@ -1,6 +1,6 @@
 {
-  "name": "vaul",
-  "version": "1.1.2",
+  "name": "@hendraaagil/vaul",
+  "version": "1.0.0",
   "description": "Drawer component for React.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -22,7 +22,7 @@
   "scripts": {
     "type-check": "tsc --noEmit",
     "build": "pnpm type-check && bunchee && pnpm copy-assets",
-    "copy-assets": "cp -r ./src/style.css ./style.css",
+    "copy-assets": "copyfiles -r ./src/style.css ./style.css",
     "dev": "bunchee --watch",
     "dev:test": "turbo run dev --filter=test...",
     "format": "prettier --write .",
@@ -51,6 +51,7 @@
     "@types/react": "18.2.55",
     "@types/react-dom": "18.2.18",
     "bunchee": "^5.1.5",
+    "copyfiles": "^2.4.1",
     "eslint": "^7.32.0",
     "prettier": "^2.5.1",
     "react": "^18.2.0",
